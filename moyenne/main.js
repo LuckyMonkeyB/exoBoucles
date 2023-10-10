@@ -1,5 +1,5 @@
-let input = +prompt("saisissez vos notes en français, math, géo et histoire (séparez-les par des virgules");
-let notes = parseInt(input.split(','));
+let input = prompt("saisissez vos notes en français, math, géo et histoire (séparez-les par des virgules");
+let notes = input.split(',').map(Number);
 
 let somme = 0;
 
